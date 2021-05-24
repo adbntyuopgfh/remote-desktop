@@ -1,3 +1,0 @@
-! wget https://raw.githubusercontent.com/GamingLnk/RDP.Colab.Google/main/RDP.sh &> /dev/null
-! chmod +x RDP.sh 
-! ./RDP.sh
