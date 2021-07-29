@@ -21,7 +21,7 @@ printf """$c$b
     ╚█████╔╝╚█████╔╝███████╗██║░░██║██████╦╝    ██████╔╝███████╗██████╔╝██║░╚██╗░░░██║░░░╚█████╔╝██║░░░░
     ░╚════╝░░╚════╝░╚══════╝╚═╝░░╚═╝╚═════╝░    ╚═════╝░╚══════╝╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░░
     $r  By Appnox © 2020 $c For Accessing Remote Desktop
-      Github : https://github.com/Appnox-del          
+      Github : https://github.com/apix-loi          
 $endc$enda""";
 
 
