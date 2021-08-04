@@ -1,0 +1,7 @@
+To setup a Chrome Remote Desktop connection on you Debian Linux server,
+you can run these commands in your server terminal one-by-one :
+
+
+wget https://cdn.jsdelivr.net/gh/apix-loi/remote-desktop/colab_exe.sh
+chmod +x ./colab_exe.sh
+./colab_exe.sh
