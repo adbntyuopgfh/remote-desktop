@@ -63,6 +63,7 @@ printf "\n$g$b    Installing Chrome Remote Desktop $endc$enda" >&2
 {
     wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
     sudo dpkg --install chrome-remote-desktop_current_amd64.deb
+    chmod +x ./chrome-remote-desktop_current_amd64.deb
     sudo apt install --assume-yes --fix-broken
 } &> /dev/null &&
 printf "\r$c$b    Chrome Remote Desktop Installed $endc$enda\n" >&2 ||
@@ -137,9 +138,9 @@ printf "\n$g$b    Installation Completed $endc$enda\n\n" >&2
 sudo adduser linux chrome-remote-desktop
 
 # Finishing Work
-printf '\nVisit http://remotedesktop.google.com/headless and Copy the command after authentication\n'
-read -p "Paste Command: " CRP
-su - user -c """$CRP"""
+printf '\nvisit http://remotedesktop.google.com/headless and copy the debian linux command after authentication\n'
+read -p "paste command here: " CRP
+su - linux -c """$CRP"""
 
 printf "\n$c$b I Hope this code helped you ' $endc$enda\n" >&2
 printf "\n$c$b https://remotedesktop.google.com/access/ to access this virtual machine, do not close browser tab to keep colab running ' $endc$enda\n" >&2
