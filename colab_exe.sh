@@ -31,7 +31,7 @@ $endc$enda""";
 
 # Creation of user
 printf "\n\nCreating user " >&2
-if sudo useradd -m user &> /dev/null
+if sudo useradd -m linux &> /dev/null
 then
   printf "\ruser created $endc$enda\n" >&2
 else
